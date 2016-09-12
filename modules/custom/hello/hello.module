@@ -1,6 +1,6 @@
 <?php
 function hello_theme($existing, $type, $theme, $path) {
-	kint($theme);
+	//kint($theme);
   return array('hello' =>
     array(
       'variables' => array(

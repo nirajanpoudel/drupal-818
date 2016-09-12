@@ -12,7 +12,7 @@ class HelloController extends ControllerBase {
   public function content() {
     return array(
         '#type' => 'markup',
-        '#markup' => $this->t('Hello, World!'),
+        '#markup' => $this->t('Hello DD, World!'),
     );
   }
 }
