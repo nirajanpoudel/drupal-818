@@ -18,7 +18,8 @@ class HelloBlock extends BlockBase {
 	public function build () {
 		return array (
 			'#markup' => $this->t('Hello, world!'),
-			'#theme'=>'hello_world'
+			'#theme'=>'hello
+				'
 		);
 	}
 }
