@@ -1,0 +1,7 @@
+hello.content:
+  path: '/hello-block'
+  defaults:
+    _controller: '\Drupal\hello\Controller\HelloController::content'
+    _title: 'Hello block xx'
+  requirements:
+    _permission: 'access content'

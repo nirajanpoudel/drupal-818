@@ -1,0 +1,6 @@
+name: Hello Module
+description: Creates  hello module for test.
+package: Custom
+
+type: module
+core: 8.x

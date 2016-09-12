@@ -1,0 +1,14 @@
+<?php
+function hello_theme($existing, $type, $theme, $path) {
+	kint($theme);
+  return array('hello' =>
+    array(
+      'variables' => array(
+        'title' => 'Default title', 
+        'description' => 'place content goes here',
+        'var1'=>'This is var one'
+      ),
+      'template' => 'block--sampleblock'
+    )
+  );
+}
